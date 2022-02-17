@@ -1,0 +1,13 @@
+name: neuron
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - matplotlib
+  - tqdm
+  - ipython
+  - pycodestyle
+  - pip:
+    - -r requirements.txt
