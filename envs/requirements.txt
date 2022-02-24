@@ -1,2 +1,3 @@
 pytest
 pytest-pycodestyle
+pyqt5

@@ -1,15 +1,17 @@
 #from random import *
-import random
-from graphics import *
-import matplotlib
-import numpy
-import time
 import math
+import random
+import time
+
+import matplotlib
 import matplotlib.pyplot as plt
+import numpy
+
+from graphics import *
+
 
 #%%
 class Neuron(object):
-
     """ Class Invariant:
     "threshold": threshold voltage of the neuron; default initialized to 1.
     "voltage": current voltage of the neuron; default initialized to 0.
