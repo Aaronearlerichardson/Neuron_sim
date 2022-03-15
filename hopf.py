@@ -118,7 +118,8 @@ def main(file: str):
         ylim([-50, 0])
         xlim([0, 50])
         circle(0.5, n, e, 1.0)
+    return figure(1)
 
 
 if __name__ == "__main__":
-    main('grim.txt')
+    fig = main('grim.txt')
